@@ -72,7 +72,10 @@ header {
   padding: 24px 80px;
   background: var(--white);
   border-bottom: 1px solid rgb(0, 0, 0, 0.3);
-  position: relative;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 #logo h5 {
@@ -294,7 +297,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  padding: 0 210px;
+  padding: 0 180px;
 }
 
 .product {
@@ -335,6 +338,7 @@ footer {
 .product img {
   height: 7rem;
   width: 11rem;
+  border-radius: 4px;
 }
 
 .product h6{

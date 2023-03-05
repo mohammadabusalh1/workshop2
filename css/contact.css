@@ -203,45 +203,6 @@ footer {
   color: var(--mainColor);
 }
 
-#headrer{
-    padding: 40px 80px;
-    background-color: var(--black);
-    text-align: center;
-}
-
-#headrer h6{
-    color: var(--white);
-    font-size: 24px;
-}
-
-#headrer h6 a{
-    color: var(--mainColor);
-}
-
-#hero{
-    padding: 40px 120px;
-}
-
-#cont{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8rem;
-}
-
-#cont img{
-    height: 40%;
-    width: 40%;
-}
-
-#cont div h4{
-    color: var(--black);
-}
-
-#cont div p{
-    color: var(--liteColor);
-    padding-bottom: 20px;
-}
 
 .loder{
   position: fixed;
@@ -254,4 +215,34 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#contact{
+    padding: 40px 80px;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#cont img{
+    width: 50%;
+    height: 50%;
+}
+
+#info textarea{
+  border: 1px solid var(--liteColor);
+  display: block;
+  margin: 12px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+#info input{
+border: 1px solid var(--liteColor);
+display: block;
+padding: 4px 8px;
 }

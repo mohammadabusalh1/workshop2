@@ -72,7 +72,10 @@ header {
   padding: 24px 80px;
   background: var(--white);
   border-bottom: 1px solid rgb(0, 0, 0, 0.3);
-  position: relative;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 #logo h5 {
@@ -235,7 +238,7 @@ footer {
   }
 
   #imgs_cont .image img{
-    width: 26rem;
-    height: 16rem;
+    width: 22rem;
+    height: 12rem;
   }
   

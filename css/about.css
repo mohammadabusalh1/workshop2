@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;800&display=swap");
+
+:root {
+  --mainColor: #fed330;
+  --black: #222;
+  --liteColor: #777;
+  --white: #fff;
+  --primaryColor: #e74c3c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+  direction: rtl;
+  border: none;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: var(--mainColor);
+}
+
+::selection {
+  background: var(--mainColor);
+}
+
+h1 {
+  font-size: 54px;
+}
+
+h2 {
+  font-size: 46px;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+body {
+  direction: rtl;
+}
+
+.btn {
+  background-color: var(--mainColor);
+  padding: 4px 24px;
+  text-align: center;
+  color: var(--black);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+  padding: 24px 80px;
+  background: var(--white);
+  border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+  position: relative;
+}
+
+#logo h5 {
+  color: var(--mainColor);
+}
+
+#pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+#pages a h6 {
+  color: var(--black);
+  transition: 0.2s;
+}
+
+#pages a h6.active {
+  color: var(--mainColor);
+}
+
+#pages a h6:hover {
+  color: var(--mainColor);
+}
+
+#icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  direction: ltr;
+  color: var(--black);
+  direction: rtl;
+}
+
+#icons i {
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#icons i:hover {
+  color: var(--mainColor);
+}
+
+.search {
+  padding: 8px;
+  width: 20%;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  position: absolute;
+  top: 102%;
+  left: 5.5%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+}
+
+.inputSearchActive {
+  padding: 8px;
+  width: 20%;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  position: absolute;
+  top: 102%;
+  left: 5.5%;
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: 0.3s;
+}
+
+footer {
+  border-top: 1px solid rgb(0, 0, 0, 0.3);
+  margin-top: 40px;
+}
+
+#box_cont {
+  padding: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  padding: 20px;
+  height: 12rem;
+}
+
+.box a {
+  color: var(--black);
+}
+
+.box i {
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.box h6 {
+  padding-bottom: 8px;
+}
+
+.box img {
+  height: 5rem;
+  cursor: pointer;
+}
+
+#creator {
+  background-color: var(--black);
+  text-align: center;
+  padding: 12px;
+}
+
+#creator h6 {
+  color: var(--white);
+  font-size: 16px;
+  word-spacing: 4px;
+}
+
+#creator h6 span {
+  color: var(--mainColor);
+}
+
+#headrer{
+    padding: 40px 80px;
+    background-color: var(--black);
+    text-align: center;
+}
+
+#headrer h6{
+    color: var(--white);
+    font-size: 24px;
+}
+
+#headrer h6 a{
+    color: var(--mainColor);
+}
+
+#hero{
+    padding: 40px 120px;
+}
+
+#cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+}
+
+#cont img{
+    height: 40%;
+    width: 40%;
+}
+
+#cont div h4{
+    color: var(--black);
+}
+
+#cont div p{
+    color: var(--liteColor);
+    padding-bottom: 20px;
+}
+
+.loder{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 12;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

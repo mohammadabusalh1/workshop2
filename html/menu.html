@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/menu.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../js/home.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <title>القائمة</title>
+  </head>
+  <body>
+
+    <div class="loder">
+      <img src="../imgs/loader.gif" alt="...">
+    </div>
+
+    <!-- header start -->
+    <header>
+      <a id="logo" href="home.html">
+        <h5>المطبخ الذهبي.</h5>
+      </a>
+
+      <div id="pages">
+        <a href="home.html"><h6>الرئيسية</h6></a>
+        <a href="menu.html"><h6 class="active">القائمة</h6></a>
+        <a href="imgs.html"><h6>صور</h6></a>
+        <a href="about.html"><h6>من نحن</h6></a>
+        <a href="contact.html"><h6>إتصل بنا</h6></a>
+      </div>
+
+      <div id="icons">
+        <i class="fas fa-search" id="searchIcon"></i>
+        <i class="fa fa-shopping-cart" id="cartIcon" aria-hidden="true"></i>
+        <i class="fas fa-user"></i>
+      </div>
+
+      <input
+        type="text"
+        name="inputSearch"
+        class="search"
+        id="searchInput"
+        placeholder="#أبحث"
+      />
+    </header>
+    <!-- header end -->
+
+    <!-- proudct section start -->
+    <section id="products">
+      
+      <div id="productSearch">
+        <input type="text" name="search" id="search" placeholder="ما هو طعامك المفضل؟">
+        <i class="fas fa-search    "></i>
+      </div>
+
+      <h2>المنتجات</h2>
+      <div id="products_cont">
+
+        <div class="product">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <img src="../imgs/homeImges/meet.jpg" alt="..." />
+          <h6>طبق رئيسي</h6>
+          <h4>طبق اللحم</h4>
+          <div>
+            <h6>$24</h6>
+            <input type="number" name="num" value="1" />
+          </div>
+        </div>
+
+        <div class="product">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <img src="../imgs/homeImges/drink.jpg" alt="..." />
+          <h6>مشروبات</h6>
+          <h4>عصير البرتقال</h4>
+          <div>
+            <h6>$4</h6>
+            <input type="number" name="num" value="1" />
+          </div>
+        </div>
+
+        <div class="product">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <img src="../imgs/homeImges/fastfood.jpg" alt="..." />
+          <h6>وجبات سريعة</h6>
+          <h4>هبرغر اللحم</h4>
+          <div>
+            <h6>$8</h6>
+            <input type="number" name="num" value="1" />
+          </div>
+        </div>
+
+        <div class="product">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <img src="../imgs/homeImges/sope.jpg" alt="..." />
+          <h6>طبق رئيسي</h6>
+          <h4>حساء الجمبري</h4>
+          <div>
+            <h6>$20</h6>
+            <input type="number" name="num" value="1" />
+          </div>
+        </div>
+
+        <div class="product">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <img src="../imgs/homeImges/candy.jpg" alt="..." />
+          <h6> حلويات</h6>
+          <h4>فطائر التفاح</h4>
+          <div>
+            <h6>$6</h6>
+            <input type="number" name="num" value="1" />
+          </div>
+        </div>
+
+        <div class="product">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <img src="../imgs/homeImges/salad.jpg" alt="..." />
+          <h6>مقبلات</h6>
+          <h4>سلطة الجبن</h4>
+          <div>
+            <h6>$5</h6>
+            <input type="number" name="num" value="1" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- proudct section end -->
+
+    <!-- footer start -->
+    <footer>
+      <div id="box_cont">
+        <div class="box">
+          <i class="fas fa-envelope"></i>
+          <h6>ألايميل</h6>
+          <a href="mailto:abusalhm102@gmail.com">GoldenCook@gmail.com</a>
+          <a href="mailto:abusalhm102@gmail.com">alMatbahAlthahabi@gmail.com</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-clock"></i>
+          <h6>أوقات العمل</h6>
+          <p>7:00am to 00:00pm</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-location"></i>
+          <h6>الموقع</h6>
+          <p>الرياض-المروج-شارع عز الدين الناري</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-phone"></i>
+          <h6>أرقام المطعم</h6>
+          <p>0592345956</p>
+          <p>022456742</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-download"></i>
+          <h6>تطبيقنا</h6>
+          <img src="../imgs/homeImges/apps.png" alt="" />
+        </div>
+      </div>
+      <div id="creator">
+        <h6>
+          تم الأنشاء بواسطة <span>محمد أبو صالح</span> | @ جميع الحقوق محفوظة
+        </h6>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
